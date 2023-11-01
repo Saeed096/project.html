@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in - canva</title>
+    <link rel="icon" type="image/x-icon" href="icons8-canva-48.png">
+    <link rel="stylesheet" href="create.css">
+</head>
+
+<body id="body">
+    <h1 id="h1"><u>signing in</u></h1>
+    <form action="canva.html" method="get">
+        <fieldset id="field">
+            <legend><b style="font-size: large;">personal info</b></legend>
+            <p class="p">first name <input type="text"> <span style="margin-left: 500px;margin-bottom: 20px; ">birth date</span> <input
+                    type="datetime-local"> </p>
+                    <!--p blocking so i can't adjust spacing on right?????????-->
+            <p class="p">last name <input type="text"> <span style="margin-left: 505px;">your picture</span> <input
+                    accept="image/*" type="file"> </p>
+            <p class="p">email <input type="email" style="margin-left: 25px;"> <span style="margin-left: 504px; padding-top: 40px;"><strong>gender:
+                    </strong> <input type="radio" id="m" value="male" name="gender"> <label for="m">male</label> <input type="radio" value="female" name="gender" id="f"> <label for="f">female</label> </span> </p>
+            <p class="p">password <input type="password"></p>
+            <p><input type="password" placeholder="repeat password" style="margin-left: 63px;"></p>
+            <input id="submit" type="submit">
+
+        </fieldset>
+    
+    </form>
+</body>
+
+</html>

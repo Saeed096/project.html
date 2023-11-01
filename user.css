@@ -1,0 +1,161 @@
+#header_div
+{
+    width: 100%; height: 70px; z-index: 10; margin-top: -8px; background-color: rgb(255, 255, 255);
+}
+.profile
+{
+    float: right; margin-top: 17px; margin-right: 10px;  cursor: pointer;
+}
+span.profile:hover
+{
+    opacity: .8;
+    /* background-color: red; */
+}
+
+
+#column
+{
+    margin-top: 60px; margin-left: 60px;
+
+}
+.p
+{
+width: 220px; border-radius: 7px;  font-size: 25px; background-color: rgb(255, 255, 255); cursor: pointer;
+}
+.p:hover
+{
+    opacity: .5;
+}
+.h
+{
+    position: relative;top: 6px;
+}
+.pointer
+{
+    position: relative;right: 2px; top: 5px;
+}
+        .messi{
+            position: fixed;
+        }
+
+        #img {
+            border-image-width: 5px;
+            border-radius: 50%;
+        }
+
+        .world_of  
+        {
+            font-size: 22px; font-family: 'Times New Roman', Times, serif;
+        }
+        .brown
+        {
+            color: brown;
+        }
+        .search 
+        {
+            position: absolute;right: 36%; top: 18%;
+        }
+        #temp
+        {
+            position: absolute;left: 311px; top: 33%;
+        }
+        #tempp
+        {
+            position: absolute;left: 609px; top: 41%;
+        }
+        #temppp
+        {
+            position: absolute;left: 910px; top: 41%;
+        }
+        #tempppp
+        {
+            position: absolute;left: 1210px; top: 41%;
+        }
+        #temp21
+        {
+            position: absolute;left: 313px; top: 600px;
+        }
+        #temp22
+        {
+            position: absolute;left: 609px; top: 660px;
+        }
+        #temp23
+        {
+            position: absolute;left: 905px; top: 660px;
+        }
+        #temp24
+        {
+            position: absolute;left: 1200px;top: 660px;
+        }
+        #temp31
+        {
+            position: absolute;left: 313px;top: 960px;
+        }
+        #temp32
+        {
+            position: absolute;left: 602px; top: 1020px;
+        }
+        #temp33
+        {
+            position: absolute;top: 1020px;left: 895px;
+        }
+        #temp34
+        {
+            position: absolute;top: 1020px;left: 1185px;
+        }
+        .temps
+        {
+            cursor: pointer;
+        }
+        #hover
+        {
+            cursor: pointer; position: relative;left: 895px; bottom: 16px;
+        }
+        #hover:hover
+        {
+          color: #8b3dff;
+        }
+        #hoverr:hover{
+         color: #8b3dff;   
+        }
+        #hoverr
+        {
+            cursor: pointer;  position: relative;left: 838px; bottom: 16px;
+        }
+        .zoom
+        {
+            width: 240px;
+            height: 180px;
+overflow: hidden;
+        }
+        .zoo:hover
+        {
+            transform: scale(1.2);
+            transition: 1000ms;
+        }
+        .zooom
+        {
+            width: 232px;
+            height: 180px;
+            overflow: hidden;
+        }
+        .zooo:hover
+        {
+            transform: scale(1.2);
+            transition: 1000ms;
+        }
+        .zoooom
+        {
+            width: 288px;
+            height: 402px;
+            overflow: hidden;
+        }
+        .zoooo:hover
+        {
+            transform: scale(1.2);
+            transition: 1000ms;
+        }
+        #ques:hover
+        {
+            opacity: .8;
+        }
